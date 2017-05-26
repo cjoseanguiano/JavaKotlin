@@ -35,4 +35,27 @@
         android:layout_margin="20dp"
         android:hint="Data Result"
         android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/KtxtData"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/KsendJava"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Send Java" />
+
+        <Button
+            android:id="@+id/KsendKotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Send Kotlin" />
+
+    </LinearLayout>
 </RelativeLayout>
